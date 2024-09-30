@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Personnel</title>
+    <link rel="stylesheet" href="./projet2/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./projet2/images/Logo1.jpg" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="devis.html">Observation</a></li>
+                <li><a href="devis.html">Patholigie</a></li>
+                <li><a href="devis.html">Devis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="bandeau">
+                <div class="conteneur">
+                    <img src="./projet2/images/photo2.jpg" alt="Image 1">
+                    <img src="./projet2/images/photo3.jpg" alt="Image 2">
+                    <img src="./projet2/images/photo4.jpg" alt="Image 3">
+                    <img src="./projet2/images/photo5.jpg" alt="Image 1">
+                    <img src="./projet2/images/photo6.jpg" alt="Image 2">
+                    <img src="./projet2/images/photo7.jpg" alt="Image 3">
+                    <img src="./projet2/images/photo8.jpg" alt="Image 1">
+                    <img src="./projet2/images/photo9.jpg" alt="Image 2">
+                    <img src="./projet2/images/photo10.jpg" alt="Image 3">
+                    <img src="./projet2/images/photo11.jpg" alt="Image 3">
+                </div>
+                <div class="conteneur">
+                    <img src="./projet2/images/photo2.jpg" alt="Image 1">
+                    <img src="./projet2/images/photo3.jpg" alt="Image 2">
+                    <img src="./projet2/images/photo4.jpg" alt="Image 3">
+                    <img src="./projet2/images/photo5.jpg" alt="Image 1">
+                    <img src="./projet2/images/photo6.jpg" alt="Image 2">
+                    <img src="./projet2/images/photo7.jpg" alt="Image 3">
+                    <img src="./projet2/images/photo8.jpg" alt="Image 1">
+                    <img src="./projet2/images/photo9.jpg" alt="Image 2">
+                    <img src="./projet2/images/photo10.jpg" alt="Image 3">
+                    <img src="./projet2/images/photo11.jpg" alt="Image 3">
+                </div>
+            </div>
+            <h1 class="h1Devis">Formulaire Devis</h1>
+        </section>
+        <section class="divForm">
+            <h2 class="h2Form">Formulaire</h2>
+            <div>
+                <img src="./projet2/images/photo8.jpg" alt="photoArbre">
+            </div>
+            <div>
+                <form action="#" method="get" class="form">
+                    <div>
+                        <label for="raison"><strong>Vous nous contactez à propos de ...*</strong></label>
+                        <br>
+                        <select name="raison" id="raison">
+                            <option value="selct">Veuillez faire votre choix</option>
+                            <option value="taille">Taille archti</option>
+                            <option value="abattage1">Abattage simple</option>
+                            <option value="abattage2">Abattage contrarié / Démontage</option>
+                            <option value="hauban">Pose de Hauban statick ou dynamique</option>
+                            <option value="pieg">Pose de piège a chenille processionnaire</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="choix"><strong>Vous êtes ...*</strong></label>
+                        <br>
+                        <select name="choix" id="choix">
+                            <option value="selct">Veuillez faire votre choix</option>
+                            <option value="asso">Une Association</option>
+                            <option value="collec">Une Collectivité</option>
+                            <option value="Entreprise">Une Entreprise</option>
+                            <option value="organisme">Un Organisme</option>
+                            <option value="Part">Un Particulier</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="stuctureName"><strong>Nom de votre Structure</strong><br>(hors particulier)</label>
+                        <br>
+                        <input type="text" id="stuctureName" name="stuctureName">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="siret"><strong>Siret</strong><br>(hors particulier)</label>
+                        <br>
+                        <input type="text" id="siret" name="siret">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="name"><strong>Votre Nom</strong></label>
+                        <br>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="firstname"><strong>Votre Prenom</strong></label>
+                        <br>
+                        <input type="text" id="firstname" name="firstname">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="fonction"><strong>Votre Fonction</strong><br>(hors particulier)</label>
+                        <br>
+                        <input type="text" id="fonction" name="fonction">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mail"><strong>Votre Adresse Mail</strong></label>
+                        <br>
+                        <input type="text" id="mail" name="mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="tel"><strong>Votre Numero de Téléphone</strong><br>(hors particulier)</label>
+                        <br>
+                        <input type="text" id="tel" name="tel">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="cummune"><strong>Votre Commune de localisation de l'intervention à
+                                réaliser*</strong></label>
+                        <br>
+                        <input type="text" id="cummune" name="cummune">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="commentaire"><strong>Précisez votre demande *</strong></label>
+                        <br>
+                        <p>Merci de déposer les informations utiles pour<br>nous permettre de préparer au mieux notre
+                            réponse</p>
+                        <textarea name="commentaire" id="commentaire"></textarea>
+                    </div>
+                    <br>
+                    <div class="checkbox">
+                        <label for="doc"><strong> Je désire recevoir une documentation</strong></label>
+                        <input type="checkbox" id="doc" name="doc" class="checkbox">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="button">
+                        <button type="reset">Effacer les données</button>
+                        <button type="submit">Valider les données</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <img src="./projet2/images/photo6.jpg" alt="photoArbre">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2 class="h2Contact">Contact</h2>
+            <div class="contact">
+                <div class="add">
+                    <img src="./projet2/images/add.png" alt="add">
+                    <h3>Adresse</h3>
+                    <p><a
+                            href="https://www.google.fr/maps/place/42+Av.+Roger+Salengro,+13400+Aubagne/@43.3013426,5.5742943,19.25z/data=!4m6!3m5!1s0x12c9a325156ede33:0x30960ef0390897a9!8m2!3d43.3012639!4d5.5736751!16s%2Fg%2F11c4mn64qm?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D">335
+                            Avenue Marcel Paul<br>13400 Aubagne</a></p>
+                </div>
+                <div class="tel">
+                    <img src="./projet2/images/tel.png" alt="tel">
+                    <h3>Téléphone</h3>
+                    <p><a href="tel:+33.7.86.97.31.68">(+33) 7 86 97 31 68</a></p>
+                </div>
+                <div class="mail">
+                    <img src="./projet2/images/mail.png" alt="mail">
+                    <h3>Mail</h3>
+                    <p><a href="mailto:didier.piroille@gmail.com">contact@agdp.fr</a></p>
+                </div>
+                <div>
+                    <img src="./projet2/images/res.png" alt="réseauxSociaux">
+                    <h3>Réseaux sociaux</h3>
+                    <ul class="reseau">
+                        <li><a href="https://www.facebook.com/?locale=fr_FR"><img src="./projet2/images/fb.png"
+                                    alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="./projet2/images/insta.png" alt="insta"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/"><img src="./projet2/images/in.png" alt="linkdin"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
